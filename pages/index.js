@@ -1,12 +1,11 @@
-import Head from 'next/head';
-import Image from 'next/image';
-import styles from '../styles/Home.module.css';
+import Header from './components/header';
 
 export default function Home() {
-  return (
-    <>
-      <h1 style={{ textAlign: 'center' }}>初めてのNext.jsだよ</h1>
-      <p style={{ textAlign: 'center' }}>べんきょうちゅう</p>
-    </>
-  );
+	return (
+		<>
+			<Header title={`ヘッダー`}></Header>
+			<h2 style={{ textAlign: 'center' }}>初めてのNext.jsだよ</h2>
+			<p style={{ textAlign: 'center' }}>べんきょうちゅう</p>
+		</>
+	);
 }
