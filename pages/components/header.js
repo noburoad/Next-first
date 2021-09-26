@@ -1,7 +1,7 @@
 export default function Header(props) {
 	return (
 		<>
-			<h1>{props.title}</h1>
+			<h1 style={{ textAlign: 'center' }}>{props.title}</h1>
 		</>
 	);
 }
